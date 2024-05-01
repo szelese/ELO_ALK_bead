@@ -1,7 +1,8 @@
 # ELO_ALK_bead
 
-Rövid leírás:
+XWB4XL Széles Ervin
 
+Rövid leírás:
 Egy rövid megoldást írtam Java nyelven OO szemlélettel.
 
 Csiga osztály: Egy osztály minden egyes csiga számára, amely tárolja a színét, jelenlegi pozícióját és a távolságot, amit megtett.
