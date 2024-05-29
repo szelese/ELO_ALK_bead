@@ -3,13 +3,13 @@
 XWB4XL Széles Ervin
 
 Rövid leírás:
-Egy rövid megoldást írtam Java nyelven OO szemlélettel.
+Az Ember osztályban többféle lehetőséget is megvalósíthatunk az órán tanultak alapján, beleértve az öröklődést, interfészeket, enumerációkat, statikus tagokat, generikusokat, és egyéb Java programozási technikákat. Az alábbi kód egy bővített Ember osztályt és annak különböző lehetőségeit tartalmazza.
 
-Snail osztály: Egy osztály minden egyes csiga számára, amely tárolja a színét, jelenlegi pozícióját és a távolságot, amit megtett.
-Race osztály: Kezeli a verseny logikáját, beleértve a körök számát, a csigák generálását, és a véletlenszerű eseményeket, mint a csigagyorsító.
-Main program: Ez kezeli a felhasználói interakciókat, mint a fogadásokat és a verseny állapotának kiírását.
+	Ember osztály: A fő osztályunk, amely tartalmazza a nevét, születési dátumát, nemét és populációszámot.
+	Öröklődés: A Diak és Munkavallalo osztályok az Ember osztályból származnak.
+	Interfészek és Enumeráció: Az Ember osztály implementálja a Serializable és Comparable interfészeket. A Nem enumeráció különböző nemeket definiál.
+	Generikusok: A Baratsag osztály két Ember típusú objektumot kapcsol össze.
+	MVC: A modell tartalmazza az Ember objektumot, a konzolos nézet egyszerűen kiírja az adatokat a konzolra, a GUI nézet pedig egy felhasználói interfészt biztosít, ahol a felhasználó megadhatja az adatokat és a bemutatkozó szöveg megjelenik.
+	Kontroller: A kontroller koordinálja a modell és nézet közötti kommunikációt, és eseménykezelést biztosít a GUI nézet számára.
 
-A Snail osztály reprezentál egy csigát, a Race osztály pedig a versenyt, amely tartalmazza az összes csigát és kezeli a verseny logikáját.
-A felhasználó a verseny elején fogadhat a csigák egyikére.
-A program minden körben 20%-os esélyt ad egy csigának, hogy gyorsítót kapjon.
-A fő program beolvassa a felhasználó fogadását, majd elindítja a versenyt.
+Ez a kód átfogó példát nyújt az Ember osztály különböző lehetőségeire és az MVC architektúrában történő felhasználására.
